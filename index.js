@@ -13,25 +13,25 @@ const questions = [
 
     {
         type: 'input',
-        name: 'Description',
+        name: 'description',
         message: 'Please provide a description of your project'
     },
 
     {
         type: 'input',
-        name:'Table of contents',
+        name:'tableOfContents',
         message: 'Enter your contents table information'
     },
 
     {
         type:'input',
-        name: 'Installation',
+        name: 'installation',
         message: 'What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.'
     },
 
     {
         type: 'input',
-        name:'Usage',
+        name:'usage',
         message: 'Provide instructions and examples for use. Include screenshots as needed.'
     },
 
@@ -45,19 +45,19 @@ const questions = [
 
       {
         type:'input',
-        name:'How to contribute',
+        name:'contributing',
         message: 'If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you would prefer.'
       },
 
       {
         type: 'input',
-        name: 'Tests',
+        name: 'tests',
         message: 'Go the extra mile and write tests for your application. Then provide examples on how to run them here.'
       },
 
       {
         type: 'input',
-        name: 'Questions',
+        name: 'questions',
         message: 'What is your GitHub username'
       },
 
